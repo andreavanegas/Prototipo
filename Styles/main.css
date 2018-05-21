@@ -15,7 +15,7 @@ ul, menu{
   font-family:cursive;
   color: firebrick;
   text-decoration: none;
-  font-size: 20;
+  font-size: 20px;
   text-align:justify;
   position: none;
   display: block;
@@ -54,41 +54,51 @@ display:inline-block;
 }
 
 
-.video-responsive {
-  text-align: center;
+.video-responsive{
   position: relative;
-  margin:auto;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 100px;
   height: 10000%;
   width: 500px;
   padding-block-end: 20%;
   }
   
-  .video-responsive iframe,
+  .video-responsive iframe{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+ 
   .video-responsive object,
+
   .video-responsive embed {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
   }
 
 
-.img:hover{
--webkit-transform: rotateY(180deg);
--webkit-transform-style: preserve-3d;
-transform: rotateY(180deg);
-transform-style: preserve-3d;}
-
-
-div img{
-  border-bottom-left-radius: 3px;
-  transform: scaleX(none);
-  animation-duration: border: 2s, 3s, yellow;
-  }
   
-  .section img src="Prototipo/un paseo para recordar.png"{
-    border-bottom-left-radius: 10px;
+  div{
+    background-color: indianred;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     transform: scaleX(none);
-    animation-duration: border: 2s, 3s, yellow;
+    animation-duration:initial;
   }
+
+  
+  img{
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  -webkit-transform: ;
+  -webkit-transform-style: preserve-3d;
+  transform: ;
+  transform-style: preserve-3d;
+}
