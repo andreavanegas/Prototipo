@@ -15,11 +15,11 @@ ul, menu{
   font-family:cursive;
   color: firebrick;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
   text-align:justify;
   position: none;
   display: block;
-  -webkit-padding-start: 200px;
+ 
   
 }
 
@@ -35,25 +35,35 @@ nav ul{
   width: 10px;
   list-style: none;
 }
-
+.nav{
+  width: 100%;
+  height: 38px;
+}
 .nav li ul{
 text-align:center;
 display:none;
 position:absolute;
-min-width: 20px;
 }
 
 .nav li a:hover {
   text-align: center;
-  background-color:#A0F;
+  background-color:#534B57;
 }
 
 .nav li:hover > ul {
 display:inline-block;
 
 }
-
-
+li{
+  position: relative;
+  float: left;
+  display: table;
+  margin-left: 10px;
+  top: 5px;
+}
+li a{
+  padding: 10px 40px;
+}
 .video-responsive{
   position: relative;
   margin-top: 10px;
@@ -73,17 +83,14 @@ display:inline-block;
   }
  
   .video-responsive object,
-
   .video-responsive embed {
   position: absolute;
   }
-
-
   
-  div{
-    background-color: indianred;
-    margin-top: 2px;
-    margin-left: 5px;
+ div ul li{
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 25px;
     margin-right: 10px;
     margin-bottom: 10px;
     transform: scaleX(none);
